@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C761DB422710250004042C9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C761DB322710250004042C9 /* AppKit.framework */; };
 		4CE328391DCA9A59002A53ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE328381DCA9A59002A53ED /* main.m */; };
+		D96DD8E9562DA5C656BFF568 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = D96BFF009CB392050D064A88 /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		4C761DB322710250004042C9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4CE328351DCA9A59002A53ED /* ALCPlugFix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ALCPlugFix; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE328381DCA9A59002A53ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D96BFF009CB392050D064A88 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				4CE328371DCA9A59002A53ED /* ALCPlugFix */,
 				4CE328361DCA9A59002A53ED /* Products */,
 				4C761DB222710250004042C9 /* Frameworks */,
+				D96BFF009CB392050D064A88 /* README.MD */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE328391DCA9A59002A53ED /* main.m in Sources */,
+				D96DD8E9562DA5C656BFF568 /* README.MD in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +183,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -220,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -229,7 +233,6 @@
 		4CE3283D1DCA9A59002A53ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -237,9 +240,6 @@
 		4CE3283E1DCA9A59002A53ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
