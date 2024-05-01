@@ -87,6 +87,8 @@
 				4CE328311DCA9A59002A53ED /* Sources */,
 				4CE328321DCA9A59002A53ED /* Frameworks */,
 				4CE328331DCA9A59002A53ED /* CopyFiles */,
+				CE5356961FB9BD050051346D /* Archive */,
+
 			);
 			buildRules = (
 			);
@@ -129,6 +131,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE5356961FB9BD050051346D /* Archive */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Archive;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\"); fi\n\narchive=\"${PRODUCT_NAME}-${MODULE_VERSION}-$(echo $CONFIGURATION | tr /a-z/ /A-Z/).zip\"\nrm -rf *.zip\nif [ \"$CONFIGURATION\" == \"Release\" ]; then strip -x -T \"${EXECUTABLE_PATH}\"; fi\nzip -qry -FS \"${archive}\" \"${dist[@]}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CE328311DCA9A59002A53ED /* Sources */ = {
