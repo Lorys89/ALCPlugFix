@@ -88,7 +88,6 @@
 				4CE328321DCA9A59002A53ED /* Frameworks */,
 				4CE328331DCA9A59002A53ED /* CopyFiles */,
 				CE5356961FB9BD050051346D /* Archive */,
-
 			);
 			buildRules = (
 			);
@@ -259,6 +258,7 @@
 		4CE3283E1DCA9A59002A53ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
