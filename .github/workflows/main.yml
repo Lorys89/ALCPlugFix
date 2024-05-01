@@ -19,9 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
-        with:
-          repository: acidanthera/MacKernelSDK
-          path: MacKernelSDK
       - run: xcodebuild -jobs 1 -configuration Debug -arch x86_64
       - run: xcodebuild -jobs 1 -configuration Release -arch x86_64
 
