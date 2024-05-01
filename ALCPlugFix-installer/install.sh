@@ -30,13 +30,13 @@ sudo chmod 755 /usr/local/bin/ALCRebootFromWinFix.sh
 
 echo "Copying ALCPlugFix launcher."
 
-sudo cp -f ALCPlugFix.plist /Library/LaunchAgents
-sudo chmod 644 /Library/LaunchAgents/ALCPlugFix.plist
+sudo cp -f good.win.ALCPlugFix.plist /Library/LaunchAgents
+sudo chmod 644 /Library/LaunchAgents/good.win.ALCPlugFix.plist
 
 
 echo "Loading ALCPlugFix launcher."
 
-launchctl load -w /Library/LaunchAgents/ALCPlugFix.plist
+launchctl load -w /Library/LaunchAgents/good.win.ALCPlugFix.plist
 
 
 echo "ALCPlugFix launcher status: "

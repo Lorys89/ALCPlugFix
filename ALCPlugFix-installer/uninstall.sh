@@ -9,13 +9,13 @@ echo "Deleting hda-verb program."
 sudo rm /usr/local/bin/hda-verb
 
 echo "Unloading ALCPlugFix launcher."
-launchctl unload -w /Library/LaunchAgents/ALCPlugFix.plist
+launchctl unload -w /Library/LaunchAgents/good.win.ALCPlugFix.plist
 
 echo "Removing ALCPlugFix launcher."
 launchctl remove ALCPlugFix
 
 echo "Deleting ALCPlugFix launcher."
-sudo rm /Library/LaunchAgents/ALCPlugFix.plist
+sudo rm /Library/LaunchAgents/good.win.ALCPlugFix.plist
 
 
 echo "Deleting ALC scripts..."
