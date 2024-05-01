@@ -1,0 +1,13 @@
+.DS_Store
+DerivedData
+Lilu.kext
+xcuserdata
+xcshareddata
+project.xcworkspace
+build
+.idea
+.vscode
+.svace-dir
+cov-int
+/MacKernelSDK
+/clang32
