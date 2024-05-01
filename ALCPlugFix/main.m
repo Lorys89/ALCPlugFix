@@ -94,6 +94,7 @@ NSString *binPrefix;
 {
     NSLog(@"receiveSleepNote: %@", [note name]);
     NSLog(@"Wake detected");
+    sleep(10);
     fixAudio();
 }
 
