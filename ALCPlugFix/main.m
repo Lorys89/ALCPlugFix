@@ -2,9 +2,6 @@
 //  main.m
 //  ALCPlugFix
 //
-//  Created by Oleksandr Stoyevskyy on 11/3/16.
-//  Copyright © 2016 Oleksandr Stoyevskyy. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import <CoreAudio/CoreAudio.h>
