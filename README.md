@@ -19,7 +19,7 @@ The improvement include:
 
 Install & uninstall
 -------
-By default it's code command is for Dell Laptop with Realtek ALC295 Audio Codec with Combo Jack, you may need to change that in `fixAudio` function.
+By default it's code command is for Dell Laptop with Realtek ALC295 Audio Codec (layout 33) with Combo Jack, you may need to change that in `fixAudio` function.
 
 Running `sh install.sh` will install to `/user/local/bin`.
 
