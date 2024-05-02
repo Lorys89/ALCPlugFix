@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>KeepAlive</key>
-    <false/>
+    <true/>
     <key>Label</key>
-    <string>good.win.ALCPlugFix</string>
+    <string>ALCPlugFix</string>
     <key>ProgramArguments</key>
     <array>
         <string>/Library/MyDaemon/Daemon/</string>
