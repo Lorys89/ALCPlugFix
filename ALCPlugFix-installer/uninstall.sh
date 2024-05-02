@@ -5,8 +5,8 @@ echo "Uninstalling ALCPlugFix.  Root user is required."
 echo "Deleting ALCPlugFix program."
 sudo rm /usr/local/bin/ALCPlugFix
 
-echo "Deleting hda-verb program."
-sudo rm /usr/local/bin/hda-verb
+echo "Deleting alc-verb program."
+sudo rm /usr/local/bin/alc-verb
 
 echo "Unloading ALCPlugFix launcher."
 launchctl unload -w /Library/LaunchAgents/ALCPlugFix.plist
