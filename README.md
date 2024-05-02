@@ -7,10 +7,11 @@ The original and this fork tries to fix headphone audio power state issue in non
 
 The improvement include:
 
+ - Use bootargs alc-verbs=1
  - Refactor
  - Add listener when sleep/wake
  - Fix on sleep wake
- - Let you choose `hda-verb` so it don't need be in `$PATH`
+ - Let you choose `alc-verb` so it don't need be in `$PATH`
  - Enable launching as LauchDaemon
  - Bug fix
  - Install.sh script with update support
