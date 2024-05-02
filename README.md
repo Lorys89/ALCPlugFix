@@ -11,7 +11,7 @@ The improvement include:
  - Refactor
  - Add listener when sleep/wake
  - Fix on sleep wake
- - Let you choose `alc-verb` so it don't need be in `$PATH`
+ - Let you choose `alc-verb`
  - Enable launching as LauchDaemon
  - Bug fix
  - Install.sh script with update support
@@ -33,5 +33,4 @@ Credits
 
 - Goodwin for creating the Software
 - Menchen for the refactoring and new features
-- Joshuaseltzer for creating new install.sh and uninstall.sh
-- Sniki for maintaining the software
+- Lorys89 & mbarbierato for maintaining the software
