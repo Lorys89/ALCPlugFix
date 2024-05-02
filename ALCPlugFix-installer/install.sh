@@ -10,10 +10,10 @@ sudo cp -f ALCPlugFix /usr/local/bin
 sudo chmod 755 /usr/local/bin/ALCPlugFix
 
 
-echo "Copying hda-verb command..."
+echo "Copying alc-verb command..."
 
-sudo cp -f hda-verb /usr/local/bin
-sudo chmod 755 /usr/local/bin/hda-verb
+sudo cp -f alc-verb /usr/local/bin
+sudo chmod 755 /usr/local/bin/alc-verb
 
 
 echo "Copying ALC scripts..."
