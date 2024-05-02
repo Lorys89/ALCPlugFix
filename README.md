@@ -7,7 +7,7 @@ The original and this fork tries to fix headphone audio power state issue in non
 
 The improvement include:
 
- - Use bootargs alc-verbs=1
+ - Use bootargs `alc-verbs=1` or DeviceProperties to audio pci-root `alc-verbs | DATA | 01000000`
  - Refactor
  - Add listener when sleep/wake
  - Fix on sleep wake
@@ -22,8 +22,6 @@ Install & uninstall
 By default it's code command is for Dell Laptop with Realtek ALC295 Audio Codec (layout 33) with Combo Jack, you may need to change that in `fixAudio` function.
 
 Running `sh install.sh` will install to `/user/local/bin`.
-
-By default it search `alc-verb` in current work directory, if not found it will search in `$PATH` _(May not work when it is running from LaunchDaemon because it is using as root)_.
 
 Running `sh uninstall.sh` will uninstall to `/user/local/bin`.
 
