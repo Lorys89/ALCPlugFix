@@ -1,4 +1,4 @@
-#ALCPlugFix
+ALCPlugFix
 ----------
 
 This is an improved version of ALCPlugFix from [goodwin](https://github.com/goodwin/ALCPlugFix).
