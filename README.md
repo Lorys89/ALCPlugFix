@@ -14,8 +14,8 @@ The improvement include:
  - Let you choose `alc-verb`
  - Enable launching as LauchDaemon
  - Bug fix
- - Install.sh script with update support
- - Uninstall.sh to uninstall ALCPlugFix
+ - Install.command to install ALCPlugFix
+ - Uninstall.command to uninstall ALCPlugFix
 
 Install & uninstall
 -------
