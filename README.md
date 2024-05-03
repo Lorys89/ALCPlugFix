@@ -21,9 +21,9 @@ Install & uninstall
 -------
 By default it's code command is for Dell Laptop with Realtek ALC295 Audio Codec (layout 33) with Combo Jack, you may need to change that in `fixAudio` function.
 
-Running right click and click open for `install.command`.
+Running right click and click open in `install.command`.
 
-Running right click and click open for `uninstall.command`.
+Running right click and click open in `uninstall.command`.
 
 
 Credits
