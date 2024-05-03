@@ -2,6 +2,8 @@
 
 
 path=${0%/*}
+sudo spctl --master-disable
+sudo mkdir /usr/local/bin
 sudo cp -a "$path/ALCPlugFix.sh" /usr/local/bin
 sudo chmod 755 /usr/local/bin/ALCPlugFix.sh
 sudo chown root:wheel /usr/local/bin/ALCPlugFix.sh
