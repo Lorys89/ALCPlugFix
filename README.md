@@ -14,16 +14,16 @@ The improvement include:
  - Let you choose `alc-verb`
  - Enable launching as LauchDaemon
  - Bug fix
- - Install.sh script with update support
- - Uninstall.sh to uninstall ALCPlugFix
+ - Install.command to install ALCPlugFix
+ - Uninstall.command to uninstall ALCPlugFix
 
 Install & uninstall
 -------
 By default it's code command is for Dell Laptop with Realtek ALC295 Audio Codec (layout 33) with Combo Jack, you may need to change that in `fixAudio` function.
 
-Running `sh install.sh` will install to `/user/local/bin`.
+Running right click and click open in `install.command`.
 
-Running `sh uninstall.sh` will uninstall to `/user/local/bin`.
+Running right click and click open in `uninstall.command`.
 
 
 Credits
