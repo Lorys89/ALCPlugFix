@@ -1,8 +1,24 @@
 #!/bin/bash
 
 
-/usr/local/bin/alc-verb 0x20 SET_COEF_INDEX 0x45
-/usr/local/bin/alc-verb 0x20 SET_PROC_COEF 0xE689
+# Fixing issues when rebooting from Windows
+
+/usr/local/bin/ALCRebootFromWinFix.sh
+
+
+# Headphone static fix
+
+/usr/local/bin/ALCHeadphoneStaticFix.sh
+
+
+# Headphone jack plug/unplug fix
 
 /usr/local/bin/alc-verb 0x19 SET_PIN_WIDGET_CONTROL 0x24
-/usr/local/bin/alc-verb 0x21 SET_UNSOLICITED_ENABLE 0x83
+
+
+
+
+
+
+
+
