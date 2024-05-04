@@ -217,10 +217,10 @@ int main(int argc, const char * argv[]) {
 
         // Fix at boot
         fixAudio();
-        do{
+//        do{
             [task performWork];
             CFRunLoopRunInMode(kCFRunLoopDefaultMode, kRunLoopWaitTime, false);
-        }while (keepRunning);
+//        }while (keepRunning);
 //        [task release];
 
         OSStatus removeStatus = AudioObjectRemovePropertyListenerBlock(defaultDevice, &sourceAddr, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),audioObjectPropertyListenerBlock);
