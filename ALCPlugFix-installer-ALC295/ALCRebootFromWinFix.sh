@@ -15,5 +15,5 @@
 /usr/local/bin/alc-verb 0x20 SET_PROC_COEF 0x5289
 
 /usr/local/bin/alc-verb 0x20 SET_COEF_INDEX 0x46
-/usr/local/bin/alc-verb 0x20 SET_PROC_COEF 0x0AF4
+/usr/local/bin/alc-verb 0x20 SET_PROC_COEF 0x0004
 
