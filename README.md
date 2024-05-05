@@ -7,7 +7,7 @@ The original and this fork tries to fix headphone audio power state issue in non
 
 The improvement include:
 
- - Use bootargs `alc-verbs=1` or DeviceProperties to audio pci-root `alc-verbs | DATA | 01000000`
+ - Use bootargs `alcverbs=1` or DeviceProperties to audio pci-root `alc-verbs | DATA | 01000000`
  - Refactor
  - Add listener when sleep/wake
  - Fix on sleep wake
