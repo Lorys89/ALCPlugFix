@@ -7,7 +7,6 @@ sudo mkdir /usr/local/bin
 sudo cp -a "$path/ALCPlugFix.sh" /usr/local/bin
 sudo chmod 755 /usr/local/bin/ALCPlugFix.sh
 sudo chown root:wheel /usr/local/bin/ALCPlugFix.sh
-sudo cp -a "$path/ALCHeadphoneStaticFix.sh" /usr/local/bin
 sudo cp -a "$path/ALCPlugFix" /usr/local/bin
 sudo chmod 755 /usr/local/bin/ALCPlugFix
 sudo chown root:wheel /usr/local/bin/ALCPlugFix
