@@ -8,11 +8,6 @@ sudo cp -a "$path/ALCPlugFix.sh" /usr/local/bin
 sudo chmod 755 /usr/local/bin/ALCPlugFix.sh
 sudo chown root:wheel /usr/local/bin/ALCPlugFix.sh
 sudo cp -a "$path/ALCHeadphoneStaticFix.sh" /usr/local/bin
-sudo chmod 755 /usr/local/bin/ALCHeadphoneStaticFix.sh
-sudo chown root:wheel /usr/local/bin/ALCHeadphoneStaticFix.sh
-sudo cp -a "$path/ALCRebootFromWinFix.sh" /usr/local/bin
-sudo chmod 755 /usr/local/bin/ALCRebootFromWinFix.sh
-sudo chown root:wheel /usr/local/bin/ALCRebootFromWinFix.sh
 sudo cp -a "$path/ALCPlugFix" /usr/local/bin
 sudo chmod 755 /usr/local/bin/ALCPlugFix
 sudo chown root:wheel /usr/local/bin/ALCPlugFix
